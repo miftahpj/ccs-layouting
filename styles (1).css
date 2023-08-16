@@ -1,0 +1,50 @@
+.static-layout {
+  position: static;
+  background-color: blue;
+}
+
+.relative-layout {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  background-color: blue;
+}
+
+.absolute-layout {
+  position: absolute;
+  left:40px;
+  border-radius: 200px;
+  width: 80%;
+  background-color: blue
+}
+
+.fixed-layout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 20px;
+  background-color: blue;
+}
+
+.container {
+    margin-top:100px;
+}
+
+.sticky-layout {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+  background-color: blue;
+}
+
+.sticky-layout1 {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 40px;
+  background-color: blue;
+}
+
+.random-text {
+    padding-top: 15%
+}
